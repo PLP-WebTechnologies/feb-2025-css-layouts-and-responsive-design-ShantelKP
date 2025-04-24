@@ -1,0 +1,51 @@
+.div-container{
+    width: 100%;
+    margin: 0 auto;
+    background-color: plum;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.items{
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    background-color: rgb(253, 150, 201);
+}
+
+
+
+@media(max-width: 600px){
+    .div-container{
+        background-color: pink;
+        width: 80%;
+    }
+
+    body{
+        background-color: palevioletred;
+    }
+
+    .flex-container{
+        display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    flex-wrap: wrap;
+    gap: 20px;
+        
+    }
+}
